@@ -1,34 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
-	
-  <head>
-    <title>Memory Game</title>
-  </head>
-  
+<html>
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS --> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <title>Memory Game</title>
+
+</head>
+
+<body>
+  <div class="container-fluid">
+
     <nav class="clearfix">
-      <a href="#">Instructions</a>
-      <a href="#">Game</a>
+      <a href="#instructionArea">Instructions</a>
+      <a href="#gameArea">Games</a>
     </nav>
-    
-    <body>
-    	<h1>Memory Game</h1>
-    	<h2>Instructions</h2>
-    	<p>
-    		Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso or simply Pairs, is a card game in which all of the cards are laid face down on a surface and two cards are         flipped face up over each turn. The object of the game is to turn over pairs of matching cards.
-    	</p>
-    	
-    	<div class="board">
-		<div class="card"></div>
-		<div class="card"></div>
-		<div class="card"></div>
-		<div class="card"></div>
-  	</div>
+
+    <hr>
+
+    <h1>Memory Game</h1>
+
+    <div class="instructions" id="instructionArea">
+      <h2>Instructions</h2>
+      <p>Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso or simply Pairs, is a card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards.
+      </p>
+      <hr>
+
+    </div>
+    <div class="board" id="gameArea">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+    </div>
+    <footer>
+    Created with <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span> by <span id="name">Austin B Miles</span> &copy;2016
+    </footer>
+  </div>
   
-  	<footer>
-  		Created with &hearts; by <span class="name">GA</span>
-	</footer>
+</body>
 
-     </body>
-
-
+<!--   Latest compiled and minified JavaScript
+ -->  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+ <script src="main.js"></script>
 </html>

@@ -1,3 +1,77 @@
+
 /* This is a multi-line
 comment. Add your CSS code
 from Unit 1 - 5 below  */
+body{
+	/*background: url("http://www.austinbmiles.com/wp-content/uploads/2016/07/04043_nanpubridgeshanghai_2048x1280.jpg") no-repeat center center fixed ;*/
+	background-color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align:center;
+}
+
+nav{
+	background-color:grey;
+}
+nav a{
+	padding:35px;
+	color:white;
+	display:block;
+	float:left;
+	text-transform: uppercase;
+}
+nav a:hover{background-color:yellow;}
+
+h1{
+	/*font-weight: 100;*/
+	color:teal;
+	font-size: 50px;
+	/*margin: 2%;*/
+}
+h2{
+	color: gold;
+	padding: 10px;
+	font-size: 35px;
+}
+p{
+	color: black;
+	text-align: justify;
+}
+footer{
+	color: black;
+	background-color: #808080;
+	text-align: center;
+}
+
+.instructions{
+	margin: 5%;
+}
+
+.board{
+	display: inline-block;
+	height:50%;
+	width:50%;
+	/*background-color: red;*/
+	
+}
+.card{
+	background-color: yellow;
+	color: black;
+	height:200px;
+	width: 150px;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: 8%;
+	float: left;
+}
+.clearfix:after {
+        visibility: hidden;
+        display: block;
+        content: " ";
+        clear: both;
+        height: 0;
+        font-size: 0;
+      }
+#name{
+	text-transform:uppercase;
+	/*color:#ff0000;*/
+}
